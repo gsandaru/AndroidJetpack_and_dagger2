@@ -10,6 +10,7 @@ import dagger.Component;
 @Component(modules = RefrigeratorModule.class)
 public interface AppComponant {
     void inject(MainActivity mainActivity);
+    void inject(HomeFragment homeFragment);
 }
 
 
